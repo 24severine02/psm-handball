@@ -218,7 +218,7 @@ function Teams({ go }: { go: (page: Page) => void }) {
 }
 
 function TeamDetail() {
-  return <PageLayout eyebrow="Seniors · Prénationale" title="Seniors masculins" intro="L’équipe fanion du PSM, engagée en championnat prénational pour la saison 2024–2025.">
+  return <PageLayout eyebrow="Seniors · Prénationale" title="Seniors masculins" intro="L’équipe fanion du PSM, engagée en championnat prénational pour la saison 2025 - 2026.">
     <div className="wide-photo"><img src={hero} alt="Équipe seniors masculins" /><span>Photo d’équipe · Saison 2024–2025</span></div>
     <div className="detail-grid">
       <section className="panel"><span className="eyebrow">Le staff</span><h2>Encadrement</h2><div className="coach"><div>JS</div><span><strong>Jonh Smith</strong><small>Entraîneur principal</small></span></div><div className="coach"><div>JS</div><span><strong>Jane Smith</strong><small>Entraîneur adjoint</small></span></div></section>
