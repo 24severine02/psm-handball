@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+.nyc_output/
+
+# Next.js
+.next/
+out/
+build/
+*.swp
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.production.local
+.env.development.local
+.env.test.local
+
+# Sanity
+.sanity/
+dist/
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+*.log
+*.logs
+
+# IDE
+.vscode/
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+.history/
+
+# Dependencies lock files (optional - remove if you want to commit)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Vercel
+.vercel/
+.vercel
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Local development
+.eslintcache
